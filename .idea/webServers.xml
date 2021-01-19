@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="777d001b-1486-49e5-b3f2-e32a6d2a6e1c" name="lothar@shopware.store-jet.de" url="http://shopware.store-jet.de">
+        <fileTransfer rootFolder="/home/store-jet/domains/shopware.store-jet.de/public_html" accessType="SFTP" host="store-jet.de" port="22" sshConfigId="8f962bcb-3479-4d3a-9805-511e52d9f25b" sshConfig="lothar-shopware.store-jet.de@store-jet.de:22 password">
+          <advancedOptions>
+            <advancedOptions controlEncoding="UTF-8" dataProtectionLevel="Private" muteSftpMessages="true" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

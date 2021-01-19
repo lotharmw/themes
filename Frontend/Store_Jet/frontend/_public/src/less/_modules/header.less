@@ -1,0 +1,222 @@
+.header-main {
+  .header--navigation{
+    height: 108px;
+    padding-bottom: 32px;
+    padding-top: 24px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .top-bar {
+    .container {
+      height: 45px;
+      margin: 0;
+      .unitize-padding(8, 0, 8, 0, 16);
+      display: block;
+    }
+  }
+
+  .logo-main {
+    width: max-content;
+  }
+  .shop--navigation {
+    width: 86%;
+
+    .block-group {
+      margin-left: 63px;
+    }
+  }
+  // Logo
+  .logo-main {
+    .unitize-padding(0, 0);
+
+    .logo--link {
+      @media screen and(min-width: @desktopViewportWidth) {
+        .unitize-height(64, 16);
+      }
+      height: 3.125rem;
+      display: inline-block;
+      max-width: 100%;
+    }
+
+    // Smaller logo for mobile viewports
+    .logo--shop {
+      .unitize-height(35, 16);
+      width: 100%;
+    }
+
+    .logo--supportinfo {
+      display: none;
+    }
+  }
+
+
+  .container {
+    .clearfix();
+    background: transparent;
+  }
+
+  .top-bar--navigation {
+    float: none;
+    .navigation--entry--left--item {
+      float: left;
+    }
+    .navigation--entry--right--item {
+      float: right;
+    }
+    .navigation--entry--underline {
+      display:inline-block;
+      border-bottom:1px solid rgba(255,255,255,0.72);
+      padding-bottom:2px;
+    }
+    .navigation--entry {
+      color: #fff;
+    }
+  }
+  .unitize(padding-bottom, 10);
+  background: #292e33;
+
+
+  // Hide the currency and language switcher
+  .top-bar {
+    background: #1c1f22;
+    .container {
+      .clearfix();
+      .unitize-max-width(1260, 16);
+      background: transparent;
+      margin: 0 auto;
+      width: 100%;
+    }
+  }
+}
+
+.shop--navigation {
+  .entry--search{
+    width: 60%;
+    background: transparent;
+    left: 17pc;
+    .main-search--form {
+      .main-search--button {
+        height: 52px;
+        padding-right: 20px;
+      }
+
+      .main-search--field:focus {
+        background: transparent;
+        color: #fff;
+      }
+
+      .main-search--field {
+        padding-left: 20px;
+        height: 52px;
+        background: transparent;
+        border-radius: 10px 10px 10px 10px;
+        border: 1px solid rgba(255, 255, 255, 1);
+      }
+    }
+  }
+}
+
+
+.header-main{
+  .top-bar--navigation{
+    .navigation--entry{
+      .service--list {
+        .service--link{
+          color: #000;
+        }
+      }
+      color: rgba(255,255,255,0.72);
+    }
+  }
+}
+
+.shop--navigation {
+  .navigation--entry {
+    .btn {
+      .unitize-height(52, 16);
+      .unitize-width(40, 16);
+      vertical-align: middle;
+      background-color: transparent;
+      background-image: none;
+    }
+  }
+}
+.shop--navigation{
+  .entry--menu-left{
+    .icon--menu{
+      @media screen and (min-width: @desktopViewportWidth) {
+        font-size: 16px;
+        font-weight: 700;
+      }
+
+      
+      
+    }
+    .navigation--menu--text{
+      visibility: hidden;
+      @media screen and (min-width: @desktopViewportWidth) {
+          visibility: visible;
+      }
+    }
+    .btn {
+      @media screen and (min-width: @desktopViewportWidth) {
+      width: 12pc;
+      border-radius: 10px;
+      border: 1px solid rgba(255, 255, 255, 1);
+      margin-left: 3pc;
+      }
+      width: auto;
+      border: none;
+      margin-left: 0px;
+      color: #fff;
+      padding-top: 7px;
+      padding-bottom: 38px;
+
+      &:hover {
+        color: red;
+        border-color: red;
+      }
+    }
+  }
+}
+
+.shop--navigation{
+  .navigation--entry{
+    .btn{
+      padding-top: 7px;
+    }
+  }
+}
+
+
+@media screen and(min-width: @tabletViewportWidth) {
+  .header-main{
+    .logo-main{
+      width: max-content;
+    }
+  }
+}
+
+
+@media screen and(max-width: @tabletViewportWidth) {
+  .header-main.container{
+    display:inline-flex;
+    flex-direction: row;
+  }
+  
+  
+  .header-main.logo-main.logo--link{
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    box-ordinal-group: 2;	
+  }
+  .shop--navigation.entry--menu-left.btn{
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    box-ordinal-group: 1;
+  }
+
+  
+
+
+}

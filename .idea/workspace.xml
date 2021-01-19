@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b8b8f722-f9c7-4837-8720-ff8c8ce18d40" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ProjectId" id="1jYA3oyAdXYzKSctWNnktgrlQ3i" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b8b8f722-f9c7-4837-8720-ff8c8ce18d40" name="Default Changelist" comment="" />
+      <created>1603970456715</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603970456715</updated>
+      <workItem from="1603970458090" duration="1953000" />
+      <workItem from="1604478050659" duration="35000" />
+      <workItem from="1604494070057" duration="1660000" />
+      <workItem from="1604495810199" duration="127000" />
+      <workItem from="1604496246069" duration="1069000" />
+      <workItem from="1604497414343" duration="6016000" />
+      <workItem from="1604608328049" duration="9633000" />
+      <workItem from="1604745075194" duration="17037000" />
+      <workItem from="1604870042337" duration="3974000" />
+      <workItem from="1605272902075" duration="29000" />
+      <workItem from="1605273046550" duration="28732000" />
+      <workItem from="1605698395024" duration="1398000" />
+      <workItem from="1605710754343" duration="2452000" />
+      <workItem from="1605717337603" duration="1312000" />
+      <workItem from="1606134652599" duration="11716000" />
+      <workItem from="1606306084064" duration="11426000" />
+      <workItem from="1606319422331" duration="8000" />
+      <workItem from="1606320140431" duration="572000" />
+      <workItem from="1606918110886" duration="1658000" />
+      <workItem from="1606919911994" duration="1633000" />
+      <workItem from="1607434171330" duration="12517000" />
+      <workItem from="1608559948623" duration="88000" />
+      <workItem from="1609235352945" duration="3424000" />
+      <workItem from="1610622292027" duration="13059000" />
+      <workItem from="1611075365977" duration="623000" />
+      <workItem from="1611077704727" duration="423000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="503" y="11" key="#Deployment" timestamp="1606919790820">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="335" y="7" key="#Deployment/0.0.1280.689@0.0.1280.689" timestamp="1606320710028" />
+    <state x="503" y="11" key="#Deployment/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1606919790820" />
+    <state x="2344" y="190" key="#Deployment/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1606306331065" />
+    <state x="511" y="238" key="#ESLint" timestamp="1604748745155">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="511" y="238" key="#ESLint/0.0.1280.689@0.0.1280.689" timestamp="1604748745155" />
+    <state x="526" y="179" width="445" height="331" key="#File_Watchers" timestamp="1604504628096">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="526" y="179" width="445" height="331" key="#File_Watchers/0.0.1280.689@0.0.1280.689" timestamp="1604504628096" />
+    <state x="326" y="0" key="#SSH_Configurations" timestamp="1606919789884">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="217" y="0" key="#SSH_Configurations/0.0.1280.689@0.0.1280.689" timestamp="1606320633046" />
+    <state x="326" y="0" key="#SSH_Configurations/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1606919789884" />
+    <state x="2246" y="0" key="#SSH_Configurations/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1606306258825" />
+    <state x="353" y="147" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604747714810">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="353" y="147" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.689@0.0.1280.689" timestamp="1604747714810" />
+    <state x="310" y="124" key="EditFileWatcherDialog" timestamp="1604502465412">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="310" y="124" key="EditFileWatcherDialog/0.0.1280.689@0.0.1280.689" timestamp="1604502465412" />
+    <state x="421" y="87" key="FileChooserDialogImpl" timestamp="1607452834762">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="421" y="87" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1607452834762" />
+    <state x="213" y="0" key="SettingsEditor" timestamp="1606918363595">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1603970491701" />
+    <state x="213" y="0" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1606918363595" />
+    <state x="282" y="0" width="872" height="676" key="dock-window-1" timestamp="1604768289687">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="282" y="0" width="872" height="676" key="dock-window-1/0.0.1280.689@0.0.1280.689" timestamp="1604768289687" />
+    <state x="22" y="0" width="587" height="689" key="find.popup" timestamp="1607440538861">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="22" y="0" width="587" height="689" key="find.popup/0.0.1280.689@0.0.1280.689" timestamp="1607440538861" />
+    <state x="1953" y="0" width="881" height="1050" key="find.popup/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1606309453416" />
+    <state x="626" y="79" key="ftp.server.browser" timestamp="1604509631578">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="626" y="79" key="ftp.server.browser/0.0.1280.689@0.0.1280.689" timestamp="1604509631578" />
+  </component>
+</project>

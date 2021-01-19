@@ -1,0 +1,181 @@
+@media screen and(min-width: @tabletViewportWidth) {
+  .sidebar--navigation {
+    .border-radius();
+    background: transparent;
+    border: 1px solid @border-color;
+  }
+    .shop--navigation .entry--menu-left{
+    display: block;
+  }
+  .sidebar-main.off-canvas.is--open{
+    display: block !important;
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    transform: translateX(-100%);
+    left: 0;
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -o-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    background: #292e33;
+    position: fixed;
+    z-index: 8000;
+
+    .navigation--smartphone{
+      display: block;
+    }
+    .mobile--switches,
+    .filter--container,
+    .navigation--smartphone{
+      display: block;
+    }
+    .entry--close-off-canvas{
+      display: block;
+      background-image: none;
+      background-color: transparent;
+    }
+    .categories--headline{
+      padding-bottom: 10,667px;
+      font-size: 1rem;
+      margin-top: 0;
+      border-bottom: 1px solid #272c31;
+      font-weight: 700;
+      display: block;
+      .unitize-padding(2, 10, 2, 10)
+    }
+    .shop-sites--container{
+      display: block;
+    }
+    .navigation--entry{
+      margin: 0;
+      padding: 0;
+    }
+    .navigation--link{
+      .unitize-padding(13, 20, 13, 36);
+      .unitize(line-height, 38);
+    }
+    .is--icon-right {
+      display: inline;
+    }
+
+    .icon--arrow-right {
+      display: inline;
+    }
+
+    .icon--arrow-left {
+      display: inline;
+    }
+  }
+  .off-canvas {
+    -webkit-transition: all 0.45s cubic-bezier(0.3, 0, 0.15, 1);
+    -moz-transition: all 0.45s cubic-bezier(0.3, 0, 0.15, 1);
+    -ms-transition: all 0.45s cubic-bezier(0.3, 0, 0.15, 1);
+    -o-transition: all 0.45s cubic-bezier(0.3, 0, 0.15, 1);
+    transition: all 0.45s cubic-bezier(0.3, 0, 0.15, 1);
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    width: 280px;
+    width: 17.5rem;
+    background: transparent;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    display: none;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    z-index: 8000;
+  }
+
+}
+@media screen and(max-width: @tabletViewportWidth) {
+  .sidebar--navigation {
+    .border-radius();
+    background: transparent;
+  }
+
+  .navigation--smartphone {
+    .entry--close-off-canvas {
+      display: block;
+      background-image: none;
+      background-color: transparent;
+    }
+  }
+
+  .sidebar-main.off-canvas.is--open {
+    background: #292e33;
+    display: block !important;
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    transform: translateX(-100%);
+    left: 0;
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -o-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    background: #292e33;
+    position: fixed;
+    z-index: 8000;
+
+    .navigation--smartphone {
+      margin-bottom: -20px;
+      margin-top: 26px;
+      display: block;
+    }
+
+    .mobile--switches,
+    .filter--container,
+    .navigation--smartphone {
+      display: block;
+    }
+
+    .entry--close-off-canvas {
+      display: block;
+      background-image: none;
+      background-color: transparent;
+    }
+
+    .categories--headline {
+      padding-bottom: 10, 667px;
+      font-size: 1rem;
+      margin-top: 0;
+      border-bottom: 1px solid #272c31;
+      font-weight: 700;
+      display: block;
+      .unitize-padding(2, 10, 2, 10)
+    }
+
+    .shop-sites--container {
+      display: block;
+    }
+
+    .navigation--entry {
+      margin: 0;
+      padding: 0;
+    }
+
+    .navigation--link {
+        padding: .125rem .625rem .125rem .625rem;
+        line-height: 2.375rem;
+    }
+
+    .is--icon-right {
+      display: inline;
+    }
+
+    .icon--arrow-right {
+      display: inline;
+    }
+
+    .icon--arrow-left {
+      display: inline;
+    }
+  }
+}

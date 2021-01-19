@@ -1,0 +1,40 @@
+#colors() {
+  primary: #fff;
+  secondary: rgba(255,255,255,0.72);
+}
+
+#background_colors() {
+  primary: #3c434a;
+  secondary: #292e33;
+}
+
+.content--home {
+  .unitize(padding-top, 9.6);
+  .unitize(margin-top, 0);
+
+  @media screen and (min-width: @tabletViewportWidth) {
+    .unitize(padding-top, 14.4);
+    .unitize(margin-top, 0);
+  }
+
+  @media screen and (min-width: @desktopViewportWidth) {
+    .unitize(padding-top, 24);
+    .unitize(margin-top, 0);
+  }
+}
+
+.homepage--promotion--container {
+background-color: #3c434a;
+
+  .product-slider--title {
+    color: #colors[primary];
+  }
+}
+
+.homepage--topseller--container {
+  background-color: #292e33;
+  
+    .product-slider--title {
+      color: #colors[primary];
+    }
+  }

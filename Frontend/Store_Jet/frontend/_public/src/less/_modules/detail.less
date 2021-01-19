@@ -1,0 +1,41 @@
+.product--details{
+  .product--base-info{
+    color: #292e33
+  }
+  .action--link{
+    color: #f72a32;
+    &:hover{
+      color: red;
+    }
+  }
+  .product--tax{
+    color: #292e33
+  }
+  .product--buybox{
+    .price--content{
+      color: #292e33;
+    }
+  }
+  .product--rating-container{
+    color: #292e33;
+  }
+  .product--header{
+    .product--title{
+      color: #292e33;
+    }
+  }
+}
+
+
+@media screen and(min-width: @tabletViewportWidth) {
+  .product--details {
+    .tab--navigation{
+      margin-left: 30px;
+    }
+    .tab-menu--product {
+      background: #272c31;
+      .unitize-margin(0, -50, -50, -50);
+      .unitize-padding(40, 80, 10, 80);
+    }
+  }
+}

@@ -1,0 +1,57 @@
+/**Cookie Einstellung->Off-canvas Text oben im Header (weiße Schrift)*/
+#cookie-consent{
+  .cookie-consent--header {
+    color: #fff;
+   }
+ }
+/**    */
+.off-canvas {
+  &.is--full-screen {
+    width: 25%;
+  }
+
+  .sidebar--navigation .navigation--link .is--icon-left {
+    float: none;
+  }
+
+  .link--go-main {
+    height: auto;
+
+    .icon--menu {
+      float: none;
+    }
+  }
+
+  /**    */
+}
+
+@media screen and(min-width: @tabletViewportWidth) {
+  .off-canvas {
+    &.is--full-screen {
+      width: 25%;
+    }
+
+    .sidebar--navigation .navigation--link .is--icon-left {
+      float: none;
+    }
+
+    .link--go-main {
+      height: auto;
+
+      .icon--menu {
+        float: none;
+      }
+    }
+
+
+  }
+}
+
+@media screen and(max-width: @tabletViewportWidth) {
+  .off-canvas {
+    &.is--full-screen {
+      width: 80%;
+    }
+  }
+}
+
